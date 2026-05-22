@@ -1,43 +1,64 @@
-import React from 'react';
+﻿import React from 'react';
 
 export default function RefundPolicyPage() {
   return (
-    <main className="max-w-6xl mx-auto px-6 py-16">
-      <div className="space-y-8">
-        <div className="space-y-3">
-          <p className="text-sm text-brand-600 uppercase tracking-[0.2em]">
-            Refund Policy
-          </p>
-          <h1 className="text-4xl font-semibold text-gray-900">
-            14-Day Digital Report Refund Policy
-          </h1>
-          <p className="text-base text-gray-600">
-            How refund requests are handled for Car Bronze report purchases.
-          </p>
-          <p className="text-sm text-gray-500">Last Updated: January 2026</p>
+    <div className="min-h-screen pt-20 bg-slate-950 text-slate-100">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="relative overflow-hidden rounded-[2rem] border border-slate-800 bg-slate-900/80 shadow-[0_30px_120px_rgba(0,0,0,0.45)]">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(128,147,255,0.16),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.14),transparent_35%)]" />
+          <div className="relative z-10 px-6 py-16 sm:px-10 lg:px-14">
+            <p className="text-sm text-emerald-300 uppercase tracking-[0.3em] mb-4">Refund Policy</p>
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+              Refund Policy for Car Bronze
+            </h1>
+            <p className="max-w-3xl text-slate-300 text-lg leading-8">
+              At Car Bronze, customer satisfaction is important to us. If you are not happy with your purchase, we will help you with a refund request.
+            </p>
+            <p className="mt-6 text-sm text-slate-500">Effective Date: May 22, 2026</p>
+          </div>
         </div>
 
-        <section className="prose prose-slate max-w-none text-gray-700">
-          <p>
-            Car Bronze offers a refund window for digital inspection reports purchased through this site.
-          </p>
+        <div className="mt-12 space-y-8">
+          <article className="rounded-[1.75rem] border border-slate-800 bg-slate-900/85 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.35)]">
+            <h2 className="text-2xl font-semibold text-white mb-4">30-Day Money Back Guarantee</h2>
+            <p className="text-slate-300 leading-7">
+              If you are not satisfied with your purchase, you may request a full refund within 30 days of purchase.
+            </p>
+          </article>
 
-          <h2>Eligibility</h2>
-          <p>
-            Refunds may be requested within 14 days of purchase when the report does not meet your expectations.
-          </p>
+          <article className="rounded-[1.75rem] border border-slate-800 bg-slate-900/85 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.35)]">
+            <h2 className="text-2xl font-semibold text-white mb-4">Eligibility</h2>
+            <ul className="list-disc list-inside space-y-2 text-slate-300 leading-7">
+              <li>First-time purchases only</li>
+              <li>Requests made within 30 days of purchase</li>
+            </ul>
+          </article>
 
-          <h2>Refund Process</h2>
-          <p>
-            Send a refund request including your order details and the reason for your request. Our support team will review it and respond quickly.
-          </p>
+          <article className="rounded-[1.75rem] border border-slate-800 bg-slate-900/85 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.35)]">
+            <h2 className="text-2xl font-semibold text-white mb-4">Refunds Do Not Apply To</h2>
+            <ul className="list-disc list-inside space-y-2 text-slate-300 leading-7">
+              <li>Renewals</li>
+              <li>Upgrades</li>
+              <li>Custom services</li>
+            </ul>
+          </article>
 
-          <h2>Contact</h2>
-          <p>
-            Email: support@carreaders.ai
-          </p>
-        </section>
-      </div>
-    </main>
+          <article className="rounded-[1.75rem] border border-slate-800 bg-slate-900/85 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.35)]">
+            <h2 className="text-2xl font-semibold text-white mb-4">Refund Process</h2>
+            <p className="text-slate-300 leading-7">
+              To request a refund, contact our support team at info@carbronze.com. Refunds are usually processed within 5–10 business days.
+            </p>
+          </article>
+
+          <article className="rounded-[1.75rem] border border-slate-800 bg-slate-900/85 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.35)]">
+            <h2 className="text-2xl font-semibold text-white mb-4">Contact</h2>
+            <p className="text-slate-300 leading-7">
+              NEXLIFY LABS LTD<br />
+              Email: info@carbronze.com
+            </p>
+          </article>
+        </div>
+      </main>
+    </div>
   );
 }

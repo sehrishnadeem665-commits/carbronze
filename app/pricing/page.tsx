@@ -175,7 +175,7 @@ export default function PricingPage() {
                   {[
                     { label: 'Full Name', key: 'name', type: 'text', placeholder: 'Sarah Johnson' },
                     { label: 'Email Address', key: 'email', type: 'email', placeholder: 'sarah@email.com' },
-                    { label: 'Vehicle VIN', key: 'vin', type: 'text', placeholder: '1HGCM82633A004352' },
+                    { label: 'Vehicle VIN / Plate', key: 'vin', type: 'text', placeholder: '1HGCM82633A004352' },
                   ].map(({ label, key, type, placeholder }) => (
                     <div key={key}>
                       <label className="text-xs sm:text-sm font-medium text-slate-300">{label}</label>
