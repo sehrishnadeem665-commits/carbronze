@@ -116,7 +116,7 @@ export default function Home() {
     };
   }, []);
 
-  const whatsappPhone = '919999999999'; // Replace with your WhatsApp number in international format (no +)
+  const whatsappPhone = '447555979712'; // Replace with your WhatsApp number in international format (no +)
   const whatsappText = 'Hi%2C%20I%27d%20like%20help%20with%20a%20vehicle%20health%20scan.';
 
   return (
@@ -991,7 +991,7 @@ export default function Home() {
                 gradientUnits="userSpaceOnUse"
               >
                 {" "}
-                <stop stopColor="#780000" /> <stop offset={1} stopColor="#780000" />{" "}
+                <stop stopColor="#67C15E" /> <stop offset={1} stopColor="#67C15E" />{" "}
               </linearGradient>{" "}
             </defs>{" "}
           </g>
